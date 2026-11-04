@@ -302,8 +302,6 @@ function Index() {
           <ol className="relative ml-3 border-l border-primary/40">
             {[
               { t: "Expected 2028", h: "Bachelor of Technology in Artificial Intelligence and Machine Learning", d: "Bapatla Women’s Engineering College (BWEC), Bapatla, Andhra Pradesh · Acharya Nagarjuna University · CGPA: 7.9" },
-              { t: "2026", h: "Smart India Hackathon – Team Leader", d: "Led Team Algo Sphere; selected in the college-level internal round." },
-              { t: "2026", h: "IIT Hyderabad – ISEA Phase-III", d: "Web Application Security and Exploitation Techniques training." },
             ].map((e) => (
               <li key={e.h} className="mb-8 ml-8">
                 <span className="absolute -left-2 mt-1.5 h-4 w-4 rounded-full bg-gradient-brand shadow-glow" />
